@@ -6,63 +6,59 @@
   <title>10 Jahre DU und ICH</title>
 
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: white;
-      text-align: center;
+.memory-section{
+max-width:900px;
+margin:40px auto;
+padding:20px;
+}
 
-      background: url("background.jpg") no-repeat center center fixed;
-      background-size: cover;
-    }
+.map{
+width:90%;
+max-width:900px;
+border-radius:20px;
+margin-bottom:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
 
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.55);
-      z-index: -1;
-    }
+.memory-btn{
+background:#d4af37;
+border:none;
+padding:15px 30px;
+border-radius:50px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+color:white;
+margin-bottom:25px;
+}
 
-    h1 {
-      padding: 30px 20px 10px;
-      font-size: 32px;
-      margin: 0;
-    }
+.memory-btn:hover{
+transform:scale(1.05);
+}
 
-    .intro {
-      max-width: 650px;
-      margin: 0 auto 30px auto;
-      font-size: 18px;
-      line-height: 1.6;
-      padding: 0 15px;
-    }
+.memory-card{
+max-width:700px;
+margin:auto;
+background:rgba(255,255,255,.1);
+padding:20px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+}
 
-    .gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-      align-items: center;
-    }
+.memory-card img{
+width:100%;
+max-width:500px;
+border-radius:15px;
+}
 
-    .gallery img {
-      width: 90%;
-      max-width: 420px;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-      transition: transform 0.3s ease;
-    }
+.memory-card h2{
+margin-top:15px;
+}
 
-    .gallery img:hover {
-      transform: scale(1.03);
-    }
+.memory-card p{
+font-size:18px;
+}
 
-    footer {
-      margin: 40px 0 20px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
   </style>
 </head>
 
